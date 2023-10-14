@@ -5,7 +5,7 @@ import styles from './header.module.sass';
 const Header = () => {
   return (
     <div className={styles.header}>
-      <h1>SmartShop</h1>
+      <h1>AppIssues</h1>
 
       <Stack direction="row" spacing={1}>
         <Button component={Link} to="/signin" color="inherit"> Acceso </Button>
